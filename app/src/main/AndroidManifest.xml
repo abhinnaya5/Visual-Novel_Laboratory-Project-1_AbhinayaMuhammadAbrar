@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VisualNovel"
+        tools:targetApi="31">
+        <activity
+            android:name=".page_ending"
+            android:exported="false" />
+        <activity
+            android:name=".path_costume_no"
+            android:exported="false" />
+        <activity
+            android:name=".path_costume_yes"
+            android:exported="false" />
+        <activity
+            android:name=".path_costume"
+            android:exported="false" />
+        <activity
+            android:name=".path_halloween"
+            android:exported="false" />
+        <activity
+            android:name=".path_film_no"
+            android:exported="false" />
+        <activity
+            android:name=".path_film_yes"
+            android:exported="false" />
+        <activity
+            android:name=".path_film"
+            android:exported="false" />
+        <activity
+            android:name=".field"
+            android:exported="false" />
+        <activity
+            android:name=".hiking"
+            android:exported="false" />
+        <activity
+            android:name=".walking"
+            android:exported="false" />
+        <activity
+            android:name=".page_3"
+            android:exported="false" />
+        <activity
+            android:name=".page_2"
+            android:exported="false" />
+        <activity
+            android:name=".page_1"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
